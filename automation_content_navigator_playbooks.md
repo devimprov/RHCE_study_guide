@@ -1,3 +1,10 @@
+# Table of Contents
+
+- [Know How to Run Playbooks with Automation Content Navigator](#know-how-to-run-playbooks-with-automation-content-navigator)
+- [Use Automation Content Navigator to Find New Modules in Available Ansible Content Collections and Use Them](#use-automation-content-navigator-to-find-new-modules-in-available-ansible-content-collections-and-use-them)
+- [Use Automation Content Navigator to Create Inventories and Configure the Ansible Environment](#use-automation-content-navigator-to-create-inventories-and-configure-the-ansible-environment)
+
+
 ## Run Playbooks with Automation Content Navigator
 
 To run playbooks using a GUI-based tool or platform designed for Ansible content management:
@@ -55,5 +62,3 @@ inventory = ./inventory
 remote_user = ansible
 host_key_checking = False
 ```
-
-Note: The actual steps and the availability of features may vary based on the specific tool or platform you are using. Always refer to the official documentation for accurate and detailed instructions.

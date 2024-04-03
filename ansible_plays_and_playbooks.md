@@ -1,5 +1,16 @@
 ## Create Ansible Plays and Playbooks
 
+This guide outlines the essentials for creating effective Ansible plays and playbooks, including examples and tips for using modules, variables, conditionals, and error handling to achieve precise configuration management tasks.
+
+# Table of Contents
+
+- [Work with Commonly Used Ansible Modules](#work-with-commonly-used-ansible-modules)
+- [Use Variables to Retrieve the Results of Running a Command](#use-variables-to-retrieve-the-results-of-running-a-command)
+- [Use Conditionals to Control Play Execution](#use-conditionals-to-control-play-execution)
+- [Configure Error Handling](#configure-error-handling)
+- [Create Playbooks to Configure Systems to a Specified State](#create-playbooks-to-configure-systems-to-a-specified-state)
+
+
 ### Work with Commonly Used Ansible Modules
 Ansible modules are the building blocks for plays and playbooks. Here are examples of how to use some commonly used modules:
 
@@ -105,4 +116,3 @@ Example playbook to configure a web server:
         dest: /usr/share/nginx/html/index.html
 ```
 
-This guide outlines the essentials for creating effective Ansible plays and playbooks, including examples and tips for using modules, variables, conditionals, and error handling to achieve precise configuration management tasks.

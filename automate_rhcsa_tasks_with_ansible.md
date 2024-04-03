@@ -1,4 +1,21 @@
-## Automate RHCSA Tasks Using Ansible
+# Automate RHCSA Tasks Using Ansible
+
+This guide offers snippets to automate essential system administration tasks relevant to RHCSA using Ansible. Each example provides a straightforward approach to managing systems efficiently.
+
+## Table of Contents
+
+- [Software Packages and Repositories](#software-packages-and-repositories)
+- [Services](#services)
+- [Firewall Rules](#firewall-rules)
+- [File Systems](#file-systems)
+- [Storage Devices](#storage-devices)
+- [File Content](#file-content)
+- [Archiving](#archiving)
+- [Task Scheduling](#task-scheduling)
+- [Security](#security)
+- [Users and Groups](#users-and-groups)
+
+
 
 ### Software Packages and Repositories
 
@@ -121,5 +138,3 @@ Create a user with a specific home directory:
     comment: "John Doe"
     home: /home/johndoe
 ```
-
-This guide offers snippets to automate essential system administration tasks relevant to RHCSA using Ansible. Each example provides a straightforward approach to managing systems efficiently.

@@ -1,4 +1,10 @@
-## Manage Content with Ansible
+# Manage Content with Ansible
+
+## Table of Contents
+
+- [Create and Use Templates to Create Customized Configuration Files](#create-and-use-templates-to-create-customized-configuration-files)
+- [Use Ansible Vault in Playbooks to Protect Sensitive Data](#use-ansible-vault-in-playbooks-to-protect-sensitive-data)
+
 
 ### Create and Use Templates to Create Customized Configuration Files
 

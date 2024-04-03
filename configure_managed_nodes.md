@@ -1,4 +1,14 @@
-## Configure Ansible Managed Nodes
+# Configure Ansible Managed Nodes
+
+This section outlines essential steps to configure managed nodes in Ansible, from setting up SSH keys and privilege escalation to deploying files and translating shell scripts into Ansible playbooks.
+
+## Table of Contents
+
+- [Create and Distribute SSH Keys to Managed Nodes](#create-and-distribute-ssh-keys-to-managed-nodes)
+- [Configure Privilege Escalation on Managed Nodes](#configure-privilege-escalation-on-managed-nodes)
+- [Deploy Files to Managed Nodes](#deploy-files-to-managed-nodes)
+- [Be Able to Analyze Simple Shell Scripts and Convert Them to Playbooks](#be-able-to-analyze-simple-shell-scripts-and-convert-them-to-playbooks)
+
 
 ### Create and Distribute SSH Keys to Managed Nodes
 SSH keys provide a secure way of logging into a Linux server. To create and distribute SSH keys:
@@ -86,4 +96,3 @@ Converted to an Ansible playbook:
         enabled: yes
 ```
 
-This section outlines essential steps to configure managed nodes in Ansible, from setting up SSH keys and privilege escalation to deploying files and translating shell scripts into Ansible playbooks.

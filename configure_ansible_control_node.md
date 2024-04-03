@@ -1,4 +1,15 @@
-## Install and Configure an Ansible Control Node
+# Install and Configure an Ansible Control Node
+
+This section provides a primer on setting up an Ansible control node, including package installation, creating inventory and configuration files, and organizing hosts into groups for efficient management.
+
+
+## Table of Contents
+
+- [Install Required Packages](#install-required-packages)
+- [Create a Static Host Inventory File](#create-a-static-host-inventory-file)
+- [Create a Configuration File](#create-a-configuration-file)
+- [Create and Use Static Inventories to Define Groups of Hosts](#create-and-use-static-inventories-to-define-groups-of-hosts)
+
 
 ### Install Required Packages
 To install Ansible on a Linux system, use the package manager that comes with your distribution. Here's how to do it on a few common distributions.
@@ -66,4 +77,3 @@ In a playbook, you can then specify which group to run tasks against:
         state: latest
 ```
 
-This section provides a primer on setting up an Ansible control node, including package installation, creating inventory and configuration files, and organizing hosts into groups for efficient management.

@@ -1,4 +1,21 @@
+
 # Ansible Core Components Study Guide
+
+## Table of Contents
+
+- [Inventories](#inventories)
+- [Modules](#modules)
+- [Variables](#variables)
+- [Facts](#facts)
+- [Loops](#loops)
+- [Conditional Tasks](#conditional-tasks)
+- [Plays](#plays)
+- [Handling Task Failure](#handling-task-failure)
+- [Playbooks](#playbooks)
+- [Configuration Files](#configuration-files)
+- [Roles](#roles)
+- [Documentation](#documentation)
+
 
 ## Inventories
 Inventories are files that define hosts and groups of hosts on which Ansible tasks can operate. They can be in INI or YAML format.
